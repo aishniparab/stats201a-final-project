@@ -4,6 +4,7 @@ germination <- read_csv("germination.csv", col_types = cols(experimenter = col_c
                 "2")), Water = col_factor(levels = c("50","100", "200")), Sunlight= col_factor(levels = c("0","50", "100"))))
 germination
 
+# test
 
 #Blocking Variable
 block <- germination$experimenter
